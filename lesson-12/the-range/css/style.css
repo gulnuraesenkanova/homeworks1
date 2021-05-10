@@ -174,3 +174,37 @@ h2 {
 .features-item {
   margin-bottom: 80px;
 }
+.features-item-title{
+  margin: 0 0 30px 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform:uppercase ;
+  color: #360e47;
+  line-height: 0.001;
+
+
+}
+.features-description{
+ font-size: 16px;
+ color: rgb(122, 131,135);
+ line-height: 1.875;
+ 
+}
+/* description */
+.description{
+  min-height: 455px;
+  background-size: cover;
+  background: rgb(113, 58, 132);
+
+}
+.description-inner{
+  padding-top: 120px;
+  padding-bottom: 105px;
+  text-align: center;
+
+}
+.description-text{
+  width: 940px;
+  margin: 0  auto;
+  margin-bottom: 30px;
+}
