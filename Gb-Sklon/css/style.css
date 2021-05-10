@@ -1,0 +1,114 @@
+body{ background-color: blueviolet;
+}
+.container{
+    width: 1180px;
+  margin: 0 auto;
+  position: relative;
+}
+.header-title { font-family: 'Times New Roman', Times, serif;
+    color:white;
+text-align:center;
+font-size: 200%;
+line-height: 0.8px;
+padding-top: 100px;
+}
+
+.header-img {
+    position:left; 
+    min-height: 20px;
+    min-width: 20px;
+    margin-left: 10px;
+
+}
+.ssylka{
+    background-color: chartreuse;
+   margin:0;
+    display: inline-block;
+    padding:10px 10px;
+    font-size: 10px;
+    list-style: none;
+    justify-content: right;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li a{
+     color: rgb(13, 22, 4);
+     padding: 15px 25px;
+     margin: 10px;
+     transition: 0.8s;
+ }
+li a:hover {
+    color: white;
+}
+li a:focus {background-color: blue;
+    color: red;
+
+}
+.ssylka1-title{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:100px;
+    color: white;
+    position:relative;
+}
+.ssylka1-tagline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:50px;
+    right:50px;
+    bottom: 50px;
+    width:500px;
+    position: absolute;
+}
+.ssylka2-title
+{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:100px;
+    color: white;
+    position:relative;
+}
+.ssylka2-tagline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:auto;
+    right:50px;
+    
+    width:500px;
+    
+}
+.ssylka3-title{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:100px;
+    color: white;
+    position:relative;
+}
+.ssylka3-tagline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:50px;
+    right:50px;
+    width:500px;
+
+    
+}
+.ssylka4-title{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:100px;
+    color: white;
+    position:relative;
+}
+.ssylka4-tagline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:50px;
+    right:50px;
+    width:500px;
+    
+}
+.ssylka5-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:100px;
+    color: white;
+    position:relative;
+}
