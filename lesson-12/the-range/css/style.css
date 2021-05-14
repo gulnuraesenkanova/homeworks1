@@ -195,16 +195,113 @@ h2 {
   min-height: 455px;
   background-size: cover;
   background: rgb(113, 58, 132);
-
+  background-image: url(../images/Rectangle\ 7.png);
+  background-position:  top 85% center;
 }
 .description-inner{
   padding-top: 120px;
   padding-bottom: 105px;
-  text-align: center;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:inherit;
 
 }
 .description-text{
   width: 940px;
   margin: 0  auto;
   margin-bottom: 30px;
+}
+/* advantages */
+.advantages{
+  padding-top:70px ;
+  padding-bottom: 50px ;
+  background-color: #f6f6f4;
+}
+.advantages-list{
+  list-style-type: none;
+display: flex;
+width: 100%;
+box-sizing: border-box;
+
+}
+.advantages-item{
+position: relative;
+  font-family: "times new roman", sans-serif;
+  font-family:lato bolt, sans-serif;
+  text-transform: lowercase;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+  text-align: justify;
+  padding:60px 5px 5px
+  5px;
+}
+.advantages-item::before{
+content: "";
+  position: absolute;
+width: 39px;
+height: 39px;
+left: 50%;
+top: 0;
+transform: translateX(-50%);
+background-image: url(../images/Timer.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.advantages-item-dashboard::before{
+  background-image: url(../images/Dashboard.png);
+}
+.advantages-item-stats::before{
+  background-image: url(../images/Stats.png);}
+  .advantages-item-development::before{
+    background-image: url(../images/Menu.png);}
+.advantages-item-title{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  color: #360e47;
+  text-align: center;
+}
+.advantages-item-text{
+  flex-wrap: wrap;
+  text-rendering: auto;  
+}
+/* footer */
+.footer-top{ background-color: rgb(48, 61, 76);}
+.footer-container{
+   
+      width: 100%;
+     height: 45px;
+    fill: rgb(160, 201, 201);}
+
+     .footer-item{
+       display: flex; 
+       justify-content: space-between;
+      text-align:center;
+      }
+       
+      .social-link{
+        
+            color: thistle;
+           
+      }
+       
+
+       
+.copyright{
+   width: 100%;
+   height: 50px;
+  background-color: rgb(11, 16, 22);
+  display: flex;
+  justify-content:space-around;
+  color: rgb(83, 75, 75);
+}
+.copyright{
+  text-transform:uppercase;
+  float: left;
+  
+}
+.footer-text{
+  border-left: 50px;
+  text-transform: lowercase;
+  float: right;
 }
