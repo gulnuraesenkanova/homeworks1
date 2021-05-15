@@ -37,20 +37,27 @@ table {
 
 /* БАЗОВЫЙ */
 body {
-	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;  
 	padding: 20px;
 }
 .mainNav {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 175px;
+  border-bottom:none ;
+  border-right: none;
+  
+}
+
+.mainNav li{
+  float: left;
+  width: 14em;
 }
 .mainNav li:last-of-type a {
-  border-bottom: 1px dashed #999;
+  border-right: 1px dashed #999;
 }
 .mainNav a {
-  color: #000;
+    color: #000;
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
@@ -75,15 +82,47 @@ body {
 .project .projectLink,
 .horoscope .horoscopeLink{
   background-color: #FFFFFF;
-  background-position: 97% 100%;
+  background-position: 3px 100%;
   padding-right: 15px;
   padding-left: 30px;
   font-weight: bold;
 }
+.home .homeLink {
+background-color: #FFFFFF;
+background-position: 97% 100%;
+padding-right: 15px;
+padding-left: 30px;
+font-weight: bold;
+}
+.feature .featureLink{
+  background-color: #FFFFFF;
+background-position: 97% 100%;
+padding-right: 15px;
+padding-left: 30px;
+font-weight: bold;
+
+}
+.expert .expertLink{
+background-color: #FFFFFF;
+background-position: 97% 100%;
+padding-right: 15px;
+padding-left: 30px;
+font-weight: bold;}
+
+.quiz .quizLink,
+.project .projectLink,
+.horoscope .horoscopeLink{
+background-color: #FFFFFF;
+background-position: 97% 100%;
+padding-right: 15px;
+padding-left: 30px;
+font-weight: bold;
+}
 
 </style>
 </head>
-<body class="home">
+<body class="feature">
+  
   <ul class="mainNav">
     <li><a href="/index.html" class="homeLink">Главная</a></li>
     <li><a href="/features/" class="featureLink">Сенсации</a></li>
@@ -92,5 +131,6 @@ body {
     <li><a href="/projects/" class="projectLink">Проекты</a></li>
     <li><a href="/horoscopes/" class="horoscopeLink">Гороскопы</a></li>
   </ul>
+
 </body>
 </html>
