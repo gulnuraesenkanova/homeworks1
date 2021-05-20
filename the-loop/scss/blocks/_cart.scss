@@ -1,0 +1,15 @@
+@import "../vars";
+
+.cart {
+  .img {
+    margin-right: 15px;
+  }
+
+  .informer {
+    display: inline-block;
+    padding: 3px 13px;
+    background-color: $accent-color;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

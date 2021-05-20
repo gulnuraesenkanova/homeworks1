@@ -1,0 +1,141 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1p;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: auto;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F9F6F1;
+}
+
+.header__inner {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  line-height: 100%;
+  text-align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+
+.header__nav {
+  max-width: 445px;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.header__logo {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__submenu {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #D7B399;
+  z-index: z;
+}
+
+.header__submenu-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.header-links {
+  width: 220px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__item {
+  position: relative;
+  padding: 1em;
+}
+
+.heade__item + .header__item {
+  margin-right: 35px;
+}
+
+.header__link {
+  padding-left: 12px;
+}
+
+.header__item::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 10px solid black;
+}
+
+.logo {
+  margin-right: 90px;
+}
+
+.cart .img {
+  margin-right: 15px;
+}
+
+.cart .informer {
+  display: inline-block;
+  padding: 3px 13px;
+  background-color: #D7B399;
+  font-size: 12px;
+  line-height: 12px;
+}

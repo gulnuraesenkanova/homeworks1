@@ -1,0 +1,11 @@
+.cart .img {
+  margin-right: 15px;
+}
+
+.cart .informer {
+  display: inline-block;
+  padding: 3px 13px;
+  background-color: #D7B399;
+  font-size: 12px;
+  line-height: 12px;
+}
