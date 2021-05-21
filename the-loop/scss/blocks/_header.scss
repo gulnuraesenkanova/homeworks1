@@ -26,20 +26,29 @@
 .header__logo {
   justify-content: center;
 }
+.header__menu-item {
+  &:hover .header__submenu {
+    display: block;
+  }
+}
 
 .header__submenu {
   position: absolute;
+  display: none;
   width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
   background-color: $accent-color;
-  z-index: z;
+  z-index: 2;
 }
 .header__submenu-link {
   color: $dark;
   text-decoration: none;
+  display: block;
+  padding: 0.8em 0.3em;
 }
+
 .header-links {
   width: 220px;
 }

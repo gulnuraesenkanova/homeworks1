@@ -1,1 +1,28 @@
 @import "../vars";
+.slider {
+  background-color: $secondary-color;
+}
+.slider__img {
+  width: 555px;
+  height: 425px;
+  margin-left: 200px;
+}
+.slider__item-inner {
+  display: flex;
+  margin-top: 131px;
+}
+.slider__text {
+  text-transform: inline;
+  justify-content: left;
+  border-radius: 50px;
+}
+.slider__title {
+  font-family: $main-font;
+  font-style: none;
+  font-size: 30px;
+  line-height: 37px;
+  line-height: 100%;
+  text-align: Left;
+  vertical-align: Top;
+  letter-spacing: 2%;
+}

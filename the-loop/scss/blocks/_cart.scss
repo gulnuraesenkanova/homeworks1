@@ -1,13 +1,31 @@
 @import "../vars";
 
 .cart {
-  .img {
+  .cart link {
+    display: flex;
+    align-items: center;
+    &::before {
+      content: "";
+      top: 15px;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-bottom: 50px solid transparent;
+      border-right: 100px solid transparent;
+      border-top: 50px solid $accent-color;
+    }
+  }
+
+  .cart a {
+    text-decoration: none;
+  }
+  .cart img {
     margin-right: 15px;
   }
 
-  .informer {
+  .cart__informer {
     display: inline-block;
-    padding: 3px 13px;
+    padding: 5px 13px;
     background-color: $accent-color;
     font-size: 12px;
     line-height: 12px;
