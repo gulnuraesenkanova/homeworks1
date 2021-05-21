@@ -1,18 +1,21 @@
 @import "../vars";
 
 .cart {
-  .cart link {
+  .cart__link {
+    position: relative;
     display: flex;
     align-items: center;
+
     &::before {
+      position: absolute;
       content: "";
       top: 15px;
       right: 0;
       width: 0;
       height: 0;
-      border-bottom: 50px solid transparent;
-      border-right: 100px solid transparent;
-      border-top: 50px solid $accent-color;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $accent-color;
     }
   }
 
@@ -20,7 +23,7 @@
     text-decoration: none;
   }
   .cart img {
-    margin-right: 15px;
+    margin-right: 25px;
   }
 
   .cart__informer {

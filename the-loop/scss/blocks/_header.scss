@@ -49,6 +49,16 @@
   padding: 0.8em 0.3em;
 }
 
-.header-links {
+.header__links {
+  font-family: $main-font;
+
   width: 220px;
+  display: inline-block;
+
+  padding-top: 20px;
+}
+.header__link {
+  text-decoration: none;
+  color: $dark;
+  margin-right: 15px;
 }
